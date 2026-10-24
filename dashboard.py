@@ -314,7 +314,7 @@ elif page == "📡 Sensor Monitoring":
             voltage = st.number_input(
                 "🔋 Voltage (V)",
                 min_value=0.0,
-                max_value=20.0,
+                max_value=260.0,
                 value=3.3,
                 step=0.1
             )
@@ -323,7 +323,7 @@ elif page == "📡 Sensor Monitoring":
             current = st.number_input(
                 "⚡ Current (A)",
                 min_value=0.0,
-                max_value=20.0,
+                max_value=260.0,
                 value=0.5,
                 step=0.1
             )
