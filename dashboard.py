@@ -130,7 +130,7 @@ def analyze_sensors(temperature, voltage, current, vibration):
         faults.append("High Temperature")
 
     if voltage < 180 or voltage > 260:
-    faults.append("Voltage Out of Range")
+        faults.append("Voltage Out of Range")
 
     if current > 1.0:
         faults.append("High Current")
