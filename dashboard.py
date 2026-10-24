@@ -306,7 +306,7 @@ elif page == "📡 Sensor Monitoring":
             temperature = st.number_input(
                 "🌡️ Temperature (°C)",
                 min_value=-50.0,
-                max_value=200.0,
+                max_value=260.0,
                 value=35.0,
                 step=1.0
             )
